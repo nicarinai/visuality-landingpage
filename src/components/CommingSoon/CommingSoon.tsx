@@ -8,7 +8,7 @@ export default function CommingSoon() {
       {/* 실제 콘텐츠 영역 */}
       {/* WeaverIntro 컴포넌트를 아래쪽에 삽입 */}
       <WeaverIntro />
-      <ExampleSection />
+      {/* <ExampleSection /> */}
       <div className="flex w-full justify-center gap-10">
         {/* 우측: ContactUs */}
         <div className="w-full">

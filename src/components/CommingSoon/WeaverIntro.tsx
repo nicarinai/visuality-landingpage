@@ -11,17 +11,17 @@ export default function WeaverIntro() {
           alt="grid"
           width={Math.max(0.9, 600)}
           height={200}
-          className="opacity-10
+          className="opacity-9
          [mask-image:radial-gradient(circle_at_center,rgba(0,0,0,1)_20%,rgba(0,0,0,0)_100%)] 
          [-webkit-mask-image:radial-gradient(circle_at_center,rgba(0,0,0,1)_20%,rgba(0,0,0,0)_100%)]"
         />
       </div>
       <div className="my-40 flex flex-col md:flex-row justify-center items-center gap-20">
         <div>
-          <div className="max-w-screen-xl px-4 lg:flex lg:items-center">
+          <div className="max-w-screen-xl px-10 lg:flex lg:items-center">
             <div className="max-w-3xl text-center">
               <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-                <p className="pl-2 pb-1 md:text-2xl text-lg sm:block text-left">
+                <p className="pl-1 pb-1 md:text-2xl text-lg sm:block text-left">
                   Visualize your Vision.
                 </p>
                 <p className="pb-1 md:text-7xl text-5xl sm:block text-center">
@@ -60,28 +60,28 @@ export default function WeaverIntro() {
           </video>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-2 md:gap-5 gap-2 justify-center items-center md:m-10 m-1">
-        <video controls autoPlay muted loop width="400">
-          <source src="/videos/landing_video_1.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <video controls autoPlay muted loop width="400">
+      <div className="grid md:grid-cols-2 grid-cols-3 md:gap-15 gap-2 justify-center items-center md:m-10 m-1">
+        <video controls autoPlay muted loop width="512">
           <source src="/videos/landing_video_2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video controls autoPlay muted loop width="400">
+        <video controls autoPlay muted loop width="512">
           <source src="/videos/landing-video-3.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video controls autoPlay muted loop width="400">
+        <video controls autoPlay muted loop width="512">
           <source src="/videos/landing-video-4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video controls autoPlay muted loop width="400">
+        <video controls autoPlay muted loop width="512">
           <source src="/videos/landing-video-5.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <video controls autoPlay muted loop width="400">
+        <video controls autoPlay muted loop width="512">
+          <source src="/videos/landing_video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>        
+        <video controls autoPlay muted loop width="512">
           <source src="/videos/landing-video-6.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
