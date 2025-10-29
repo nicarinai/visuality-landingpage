@@ -50,7 +50,6 @@ export default function WeaverIntro() {
               </h1>
             </div>
             <p className="md:text-lg text-sm font-mono">
-              2025.04.07. ~ 2025.05.20(예정)
             </p>
           </div>
         </div>
