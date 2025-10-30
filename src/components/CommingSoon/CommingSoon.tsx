@@ -1,5 +1,4 @@
 import ContactUs from "./ContactUs";
-import ExampleSection from "./ExampleSection";
 import WeaverIntro from "./WeaverIntro"; // 추가
 
 export default function CommingSoon() {
