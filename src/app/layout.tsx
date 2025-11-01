@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,6 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden text-gray-200 bg-gray-950`}
       >
         {children}
+        {/* ✅ Vercel Analytics 활성화 */}
+        <Analytics />
       </body>
     </html>
   );
